@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #6B3CC9;
+}
+
+#cnav{
+    padding: 15px 80px 15px 80px;
+}
+
+.web{
+    padding-right: 30px;
+     margin-top: 20px;
+     position: relative;
+}
+
+.nav-item a{
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h3{
+  color:#6B3CC9;
+}
+
+#banner-image{
+    width: 100%;
+}
+#small-con{
+    position: relative;
+}
+#small-box{
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),linear-gradient(0deg, #FFFFFF, #FFFFFF); 
+    padding: 15px 35px 15px 35px; 
+    height: 340px;
+    border: none;
+    width: 630px;
+    position: absolute;
+    gap: 20px;
+    bottom: 50px;
+    left: 80px;
+    
+}
+
+#small-box-row{
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    #small-box {
+      position: static; /* or any other positioning for smaller screens */
+      transform: none;
+    }
+  }
+
+#small-box p{
+    font-size: 48px;
+     color:#FFFFFF;
+     font-weight: 700;
+     padding: 15px;
+     line-height: 48px;
+     position: static;
+   
+}
+#small-box button{
+    background-color:#F28D35;
+    border: none; 
+    padding:12px 20px 12px 20px ;
+    width: 214px;
+    font-weight: 700;
+    color:#FFFFFF ;
+    position: relative;
+}
+
+#btn{
+    background-color:#F28D35;
+    border: none; padding:12px 20px 12px 20px ;
+    width: 150px;font-weight: 700;
+    color:#FFFFFF ;
+}
+
+
+
+footer{
+    background-color: #6B3CC9;
+}
+
+.list-unstyled{
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 500; 
+    text-align:left;
+}
+
+.hr{
+    width: 630px; 
+    margin:auto;
+    position: relative;
+}
+
+#heading{
+    width: 220px;
+    font-weight: 600;
+    font-size:21px;
+}
+
+#heading2{
+    width: 180px;
+    font-weight: 600; 
+    font-size:21px;
+    
+}
+
+.footer-p{
+    font-size: 16px;
+}
+
+#footerdiv{
+    padding: 30px 10px 12px 50px;
+}
+
+#footerlogo{
+    width: 413px;
+}
+
+.img{
+    width: 346px; 
+    height: 346px;
+}
+
+.imghero{
+    height: 800px; 
+    width: 100%;
+}
